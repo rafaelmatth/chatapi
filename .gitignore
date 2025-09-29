@@ -1,0 +1,85 @@
+# Arquivos e diretórios específicos do Python
+# -------------------------------------------------------------------
+
+# Diretórios de ambiente virtual
+venv/
+.venv/
+env/
+.env/
+env.bak/
+.env.bak/
+
+# Arquivos de bytecode e caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de distribuição/empacotamento
+/dist/
+/build/
+*.egg-info/
+*.egg
+/downloads/
+/eggs/
+/parts/
+/sdist/
+/var/
+*.whl
+
+# Instaladores do Python
+/pip-wheel-metadata/
+
+# Arquivos de log e bancos de dados locais
+*.log
+*.sqlite3
+*.db
+*.db3
+local_settings.py
+
+
+# Arquivos específicos do PyCharm
+# -------------------------------------------------------------------
+
+# Diretório de metadados do projeto
+.idea/
+
+# Arquivos de workspace (podem conter caminhos locais)
+*.iws
+
+# Arquivos de módulos (gerados pelo PyCharm)
+*.iml
+
+
+# Arquivos de dependências
+# -------------------------------------------------------------------
+
+# Arquivos gerados pelo pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Arquivos do pipenv
+# Descomente se você usa pipenv
+# Pipfile.lock
+
+
+# Arquivos de testes e cobertura de código
+# -------------------------------------------------------------------
+
+.pytest_cache/
+.coverage
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+
+# Arquivos de sistema operacional
+# -------------------------------------------------------------------
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
